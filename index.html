@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Presente Surpresa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <button type="button" aria-label="Abrir presente surpresa">
+            Click Me!
+        </button>
+    </div>
+    <script>
+        document.querySelector('button').addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Surpresa!');
+            window.location.href = 'https://play.pokemonshowdown.com/';
+        });
+    </script>
+</body>
+</html>
