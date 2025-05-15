@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Presente Surpresa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
+        <h1>Bem-vindo ao Presente Surpresa!</h1>
+        <img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/gift-1294310_1280.png" alt="Presente">
+        <p>Clique no botão abaixo para receber uma surpresa especial. Aproveite e compartilhe com seus amigos!</p>
         <button type="button" aria-label="Abrir presente surpresa">
-            Click Me!
+            Abrir Surpresa 🎁
         </button>
+        <ul>
+            <li>Surpresas divertidas</li>
+            <li>Conteúdo exclusivo</li>
+            <li>Experiência interativa</li>
+        </ul>
+        <footer>
+            &copy; 2025 Presente Surpresa. Feito com ❤️ por João Caraçato.
+        </footer>
     </div>
     <script>
-        document.querySelector('button').addEventListener('click', function(event) {
+        document.querySelector('button').addEventListener('click', function (event) {
             event.preventDefault();
-            alert('Wasted');
-            window.location.href = 'https://www.xvideos.com';
+            alert('Surpresa!');
+            window.open('https://play.pokemonshowdown.com/', '_blank');
         });
     </script>
 </body>
+
 </html>
